@@ -3,7 +3,6 @@ import logo from "./logo.svg";
 import "./App.css";
 import socket from "./config/apiConfig";
 import myPeer from "./config/peer";
-import Video from "./Video";
 
 // const myPeer = new window.Peer();
 
