@@ -56,13 +56,7 @@ function App() {
       tmp.push({
         id,
         video: (
-          <video
-            width="300"
-            height="300"
-            autoPlay
-            ref={React.createRef()}
-            muted
-          />
+          <video width="300" height="300" autoPlay ref={React.createRef()} />
         ),
         isActive: true,
       });
